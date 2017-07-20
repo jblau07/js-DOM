@@ -46,11 +46,18 @@ var divElem = document.getElementsByClassName("profile");
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
+var divElem = document.getElementsByClassName("profile");
+	console.log(divElem);
+	divElem[1].innerHTML = "Be like water.";
 
 
 /*6. Samuel L Jackson
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
+
+var divElem = document.getElementsByClassName("alias");
+	console.log(divElem);
+	divElem[2].innerHTML = "Jules Winnfield";
 
 
 
@@ -60,6 +67,8 @@ Create a div element and give it an id of "name7". Inside this div element, give
 
 Append this div element to the nameParent div*/
 
+var divElem = document.getElementsByClassName("name7");
+	console.log(divElem);
 
  
 /*8. Tim Duncan
